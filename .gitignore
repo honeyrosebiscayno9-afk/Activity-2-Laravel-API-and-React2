@@ -1,0 +1,20 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs & cache
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache
+
+# Laravel specific
+Homestead.json
+Homestead.yaml
+auth.json
+docker-compose.override.yml
